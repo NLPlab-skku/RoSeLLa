@@ -1,4 +1,4 @@
-# NLPLAB_sLLM
+# NLPLAB_sLM
 # 한국어 기반 소형 언어 모델(sLM)
 
 SKKU-NLPLAB-sLM은 NLPLAB에서 구축한 [NLPLAB sLM 데이터셋](https://github.com/NLPlab-skku/DATA/tree/main/sLM)을 기반으로 학습한 한국어 소형 언어 모델입니다.<br/>
