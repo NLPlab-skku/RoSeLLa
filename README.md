@@ -1,2 +1,33 @@
 # NLPLAB_sLLM
-resository for NLPLAB_sLLM
+# 한국어 기반 소형 언어 모델(sLM)
+
+SKKU-NLPLAB-sLM은 NLPLAB에서 구축한 [NLPLAB sLM 데이터셋](https://github.com/NLPlab-skku/DATA/tree/main/sLM)을 기반으로 학습한 한국어 소형 언어 모델입니다.<br/>
+[🤗42dot/42dot_LLM-PLM-1.3B](https://huggingface.co/42dot/42dot_LLM-PLM-1.3B)을 기반으로 instruction tuning 된 모델입니다.
+
+
+## sLM.v0
+NLPLAB sLM 데이터셋을 instruction tuning 한 모델입니다.<br/>
+- Repo: [🤗SKKU-NLPLAB-sLM-v0](https://huggingface.co/NLPlab-skku/42dot_v0) <br/>
+
+|데이터셋|개수|
+|------|---|
+|**CoT**|77,200|
+|**Dolly**|6,642|
+|**EverythingLM**|991|
+|**Law**|13,702|
+|**Number**|9,580|
+
+## sLM.v1
+NLPLAB sLM 데이터셋을 2차 가공하여 instruction tuning 한 모델입니다.<br/>
+- Repo: [🤗SKKU-NLPLAB-sLM-v1](https://huggingface.co/NLPlab-skku/42dot_v1) <br/>
+
+v0의 데이터 셋에서 랜덤으로 15%의 데이터를 추출한 후, gpt-4o를 통하여 필터링하였습니다. <br/>
+
+|데이터셋|개수|
+|------|---|
+|**CoT**|4,107|
+|**Dolly**|514|
+|**EverythingLM**|126|
+|**Law**|1,756|
+|**Number**|1,198|
+
