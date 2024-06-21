@@ -21,13 +21,7 @@ NLPLAB sLM 데이터셋을 instruction tuning 한 모델입니다.<br/>
 NLPLAB sLM 데이터셋을 2차 가공하여 instruction tuning 한 모델입니다.<br/>
 - Repo: [🤗SKKU-NLPLAB-sLM-v1](https://huggingface.co/NLPlab-skku/42dot_v1) <br/>
 
-v0의 데이터 셋에서 랜덤으로 15%의 데이터를 추출한 후, gpt-4o를 통하여 필터링하였습니다. <br/>
+v0의 데이터 셋의 일부를 gpt-4o를 통하여 필터링하였습니다. <br/>
+추후에 모든 데이터에 대해서 필터링 작업을 진행할 예정입니다. <br/>
 
-|데이터셋|개수|
-|------|---|
-|**CoT**|4,107|
-|**Dolly**|514|
-|**EverythingLM**|126|
-|**Law**|1,756|
-|**Number**|1,198|
 
