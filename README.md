@@ -7,7 +7,7 @@ RoSeLLa는 NLPLAB에서 구축한 [NLPLAB sLM 데이터셋](https://github.com/N
 
 ## RoSeLLa.v0
 NLPLAB sLM 데이터셋을 instruction tuning 한 모델입니다.<br/>
-- Repo: [🤗SKKU-NLPLAB-sLM-v0](https://huggingface.co/NLPlab-skku/42dot_v0) <br/>
+- Repo: [🤗NLPlab-skku/Rosella_v0](https://huggingface.co/NLPlab-skku/RoSeLLa_v0) <br/>
 
 |데이터셋|개수|
 |------|---|
@@ -19,7 +19,7 @@ NLPLAB sLM 데이터셋을 instruction tuning 한 모델입니다.<br/>
 
 ## RoSeLLa.v1
 NLPLAB sLM 데이터셋을 2차 가공하여 instruction tuning 한 모델입니다.<br/>
-- Repo: [🤗SKKU-NLPLAB-sLM-v1](https://huggingface.co/NLPlab-skku/42dot_v1) <br/>
+- Repo: [🤗NLPlab-skku/Rosella_v1](https://huggingface.co/NLPlab-skku/RoSeLLa_v1) <br/>
 
 v0의 데이터 셋의 일부를 gpt-4o를 통하여 필터링하였습니다. <br/>
 추후에 모든 데이터에 대해서 필터링 작업을 진행할 예정입니다. <br/>
