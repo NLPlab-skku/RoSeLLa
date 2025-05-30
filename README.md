@@ -34,7 +34,9 @@ Base Model: Llama-3-3B, Qwen2.5-3B, Gemma-2B 등
 2. 중요도가 낮은 Layer 제거
 
 **Knowledge Distillation:** 각 Base Model을 교사(teacher)로 설정하여 Hidden States, Logits, Final Output을 기반으로 Student 모델을 학습
+
 기반 데이터 : [openwebtext](https://skylion007.github.io/OpenWebTextCorpus)
+
 이후 전체 과정을 **반복적으로 수행**
 
 목표: 모델 크기 및 추론 비용을 줄이면서도 기존 Instruction 능력 유지
